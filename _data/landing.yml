@@ -23,7 +23,13 @@
   name: Career
   tpl: career.html
   css: timeline
-  
+
+- id: projects2
+  i18n: nav.projects2
+  name: CONTACT
+  tpl: projects2.html
+  css: project
+
 # - id: blog
 #   i18n: nav.blog
 #   name: Blog
