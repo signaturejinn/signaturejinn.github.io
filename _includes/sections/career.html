@@ -13,6 +13,7 @@
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon {% if career.present ==  true %} navy-bg-present {% else %} navy-bg {% endif %} wow rotateIn">
                         <i class="fa {{ career.icon }}"></i>
+                        <!-- <img src="{{ career.icon_image }}" alt="{{ career.name.detail }} icon"> -->
                     </div>
                     <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
                         <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>

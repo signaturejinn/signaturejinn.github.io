@@ -1,23 +1,62 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+# GCP 프로젝트
+- name: "GCP MSA Project"
+  i18n: "GCP MSA 웹 서비스"
+  gh_user: signaturejinn
+  repo: GCPZG_Cloud_Native_MSA
+  img: /static/assets/img/landing/gcp.jpg
+  desc: "GCP를 활용한 Cloud Native 기반 MSA 웹 서비스"
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: "GCP K8S Infra Project"
+  i18n: "GCP K8S Infra Project"
+  gh_user: signaturejinn
+  repo: GCPZG_k8s_petclinic
+  img: /static/assets/img/landing/gcp.jpg
+  desc: "GKE를 활용한 Container 기반 3-Tier 웹 서비스"
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: "IaC를 활용한 Infra Project"
+  i18n: "IaC를 활용한 Infra Project"
+  gh_user: signaturejinn
+  repo: GCPZG_Terraform_Project
+  img: /static/assets/img/landing/gcp.jpg
+  desc: "IaC를 활용한 GCP 2-Tier 웹서비스"
 
+- name: "GCP 3-Tier Project"
+  i18n: "GCP 3-Tier 인프라"
+  gh_user: signaturejinn
+  repo: GCP_Infra_Semi
+  img: /static/assets/img/landing/gcp.jpg
+  desc: "Petclinic 예약 웹 서비스"
+
+# AWS
+- name: "AWS 2-Tier Project"
+  i18n: "AWS 2-Tier Project"
+  gh_user: signaturejinn
+  repo: AWS_Infra_Project
+  img: /static/assets/img/landing/aws.jpg
+  desc: "AWS를 활용해 기본적인 2-Tier 웹서비스를 제공하고 S3를 활용한 정적 웹사이트 호스팅"
+
+- name: "IaC를 활용한 AWS Infra Project"
+  i18n: "IaC를 활용한 AWS Infra Project"
+  gh_user: signaturejinn
+  repo: AWS_Terraform-Infra
+  img: /static/assets/img/landing/aws.jpg
+  desc: "Terraform File을 작성하여 AWS 2-Tier 인프라 구축 및 웹 서비스 운영"
+
+# Azure
+- name: "Azure 2-Tier Project"
+  i18n: "Azure 2-Tier Project"
+  gh_user: signaturejinn
+  repo: Azure_Infra_Project
+  img: /static/assets/img/landing/azure.jpg
+  desc: "Azure를 활용해 Web 서비스를 위한 인프라 구축, Wordpress 가상머신과 데이터 베이스 운용"
+
+# NCP
+- name: "NCP 3-Tier Project"
+  i18n: "NCP 3-Tier Project"
+  gh_user: signaturejinn
+  repo: NCP_Infra_Project
+  img: /static/assets/img/landing/ncp.jpg
+  desc: "NCP 서비스를 활용한 3-Tier 웹서비스"
