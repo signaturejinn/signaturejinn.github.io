@@ -33,7 +33,7 @@
     detail: 클라우드 청년인재 양성과정 2기
     i18n: company_c
   desc:
-    detail: Bespin Global Tech Center
+    detail: (재)부산정보산업진흥원
     i18n: company_c_desc
   date:
     detail: 2022.05 ~ 2022. 12
@@ -57,3 +57,18 @@
     detail: 자격증 취득
     i18n: company_d_job
   icon: fa-plus-square
+
+  - name:
+    detail: DevOps & SRE 엔지니어 부트캠프
+    i18n: company_e
+  desc:
+    detail: CCCR Academy
+    i18n: company_e_desc
+  date:
+    detail: 2023.07 ~ ing
+    i18n: company_e_date
+  job:
+    detail: 수료
+    i18n: company_e_job
+  icon: fa-plus-square
+  present: true
